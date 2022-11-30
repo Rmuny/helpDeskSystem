@@ -1,0 +1,70 @@
+.profile img{
+    width: 100px;
+    height: 100px;
+
+}
+option{
+    float: left;
+}
+
+legend{
+    /*padding-top: 20px;*/
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+div#page {
+    /*border:1px solid purple;*/
+    /*width:100%;*/
+    /*margin:0 auto;*/
+    /*padding:5px;*/
+    text-align:center;
+    /*background-color: rgba(192, 192, 192, 0.84);*/
+
+}
+div#menu {
+    /*border:2px solid green;*/
+    width:210px;
+    float:left;
+    padding-top: 2%;
+
+    margin:10px 0 10px 5px;
+    height:350px;
+}
+div#header {
+    /*border: 1px #0a53be;*/
+    /*border:2px solid red;*/
+    background-color: #751717;
+    padding-right: 10px;
+    align-content: center;
+    padding-top: 20px;
+    width:100%;
+    height:160px;
+    /*border-bottom: #bbd4c1 1px  ;*/
+}
+
+
+
+div#content {
+    /*border:2px solid blue;*/
+    width:100%;
+    padding-top: 2%;
+    padding-left: 20%;
+    margin:10px 0 10px 0px;
+    /*min-height:300px;*/
+    _height:300px
+}
+
+table td{
+    border-bottom: none;
+    /*width: 100px;*/
+
+}
+
+tr{
+    height: 35px;
+}
+.name{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}

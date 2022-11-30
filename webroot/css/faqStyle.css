@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Muli:wght@400;500&display=swap");
+body{
+    color: rgba(44, 44, 44, 0.89);
+}
+.containerFluid {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.containerFluid h2 {
+    color: darkorange;
+    position: relative;
+    /*width: 24rem;*/
+}
+
+.containerFluid h2::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 12px;
+    width: 67px;
+    height: 2px;
+    background-color:green;
+}
+.subContainer{
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: black;
+}
+
+.accordion {
+    width: 100%;
+    padding: 0 1.5px;
+    /*border: 2px solid #6db5ff;*/
+    cursor: pointer;
+    display: flex;
+    margin: 10px 0;
+    padding-top: 2px;
+    padding-left:2px;
+    /*align-items: center;*/
+}
+
+.accordion .icon {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+    no-repeat 8px 7px green;
+    border-radius: 50%;
+    float: left;
+    transition: all 0.5s ease-in;
+}
+
+.accordion h5 {
+    font-size: 19px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+}
+
+h6{
+    color: rgba(72, 72, 72, 0.87);
+}
+
+.active .icon {
+    background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+    no-repeat 8px -25px #fff;
+}
+
+.panel {
+    padding: 0 15px;
+    border-left: 1px solid green;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.3s ease-in;
+}
+.faq{
+    margin-left:35%;
+}
+
+/*filter*/
+
+#myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+}
